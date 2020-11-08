@@ -1,0 +1,2 @@
+com/example/sportash/BuildConfig.java
+ com.example.sportash.BuildConfig
