@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
                             0 -> savedInstanceState
                                     ?: supportFragmentManager.beginTransaction()
                                             .replace(R.id.main_fragment_container, HomeFragment()).commit()
+                            2 -> savedInstanceState
+                                ?: supportFragmentManager.beginTransaction()
+                                    .replace(R.id.main_fragment_container, MessagesFragment()).commit()
                             1 -> savedInstanceState
                                     ?: supportFragmentManager.beginTransaction()
                                         .replace(R.id.main_fragment_container, FriendsFragment()).commit()
