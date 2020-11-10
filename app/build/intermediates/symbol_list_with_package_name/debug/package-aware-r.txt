@@ -1707,6 +1707,7 @@ id confirm_button
 id container
 id content
 id contentPanel
+id conversations_container
 id coordinator
 id cos
 id custom
@@ -1810,6 +1811,8 @@ id main_fragment_container
 id masked
 id media_actions
 id message
+id message_count
+id message_username
 id middle
 id mini
 id month_grid
@@ -2083,6 +2086,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_friends
 layout fragment_home
+layout fragment_messages
 layout fragment_new_account
 layout fragment_user
 layout mtrl_alert_dialog
@@ -2146,6 +2150,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout universal_message_container
 layout user_detials_item
 mipmap ic_launcher
 mipmap ic_launcher_round
