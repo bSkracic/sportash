@@ -87,7 +87,7 @@ class FriendsFragment : Fragment(R.layout.fragment_friends) {
             }
 
             override fun onItemClicked(id: Int) {
-                openUserDetails()
+                openUserDetails(id)
             }
         }
         runBlocking {
@@ -108,7 +108,7 @@ class FriendsFragment : Fragment(R.layout.fragment_friends) {
             }
 
             override fun onItemClicked(id: Int) {
-                openUserDetails()
+                openUserDetails(id)
             }
         }
         val container = view?.findViewById<RecyclerView>(R.id.friends_container)
@@ -172,7 +172,7 @@ class FriendsFragment : Fragment(R.layout.fragment_friends) {
             }
 
             override fun onItemClicked(id: Int) {
-                openUserDetails()
+                openUserDetails(id)
             }
         }
         val container = view?.findViewById<RecyclerView>(R.id.friends_container)
@@ -211,7 +211,8 @@ class FriendsFragment : Fragment(R.layout.fragment_friends) {
         })
     }
 
-    private fun openUserDetails(){
-        Toast.makeText(context, "Clicked", Toast.LENGTH_SHORT).show()
+    private fun openUserDetails(id: Int){
+        val fragment = UserFragment.newInstance(id, false)
+        fragmentManager?.beginTransaction()?.replace(R.id.main_fragment_container, fragment)?.commit()
     }
 }

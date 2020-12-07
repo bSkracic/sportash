@@ -1,5 +1,7 @@
 package com.example.sportash
 
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
 import java.io.OutputStreamWriter
 import java.net.HttpURLConnection
 import java.net.URL
@@ -31,47 +33,4 @@ data class FullUserDetails (
     val FirstName: String,
     val LastName: String,
     val DOB: String )
-
-class SportashAPI() {
-    companion object {
-        const val GET: String = "GET"
-        const val POST: String = "POST"
-        const val PUT: String = "PUT"
-        const val DELETE: String = "DELETE"
-
-        const val apiURL = "https://hk-iot-team-02.azurewebsites.net/api"
-
-        fun HTTPRequest(method: String, url: String, data: Any?): String {
-            // Create JSON body if any is given
-            var jsonContent = ""
-            if(data != null){
-                jsonContent = Gson().toJson(data)
-            }
-            // Send HTTP request
-            try {
-                with(URL(url).openConnection() as HttpURLConnection) {
-                    this.requestMethod = method
-                    if(method == "POST" || method == "PUT"){
-                        this.setRequestProperty("content-type", "application/json")
-                        val wr = OutputStreamWriter(outputStream)
-                        wr.write(jsonContent)
-                        wr.flush()
-                    }
-
-                    BufferedReader(InputStreamReader(inputStream)).use {
-                        val response = StringBuffer()
-                        var inputLine = it.readLine()
-                        while (inputLine != null) {
-                            response.append(inputLine)
-                            inputLine = it.readLine()
-                        }
-                        return response.toString()
-                    }
-                }
-            } catch (ex: Exception){
-                throw ex
-            }
-        }
-    }
-}
 

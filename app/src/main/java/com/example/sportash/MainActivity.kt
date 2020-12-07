@@ -3,13 +3,21 @@ package com.example.sportash
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
-        supportFragmentManager.beginTransaction().replace(R.id.main_fragment_container, HomeFragment()).commit()
+        // TODO> DEBUG check if fragment stack has two or more items(indicating that tabbed open another sub tab) ? pop it : open Home Fragment and empty stack
+        val stackSize = supportFragmentManager.backStackEntryCount
+        if(stackSize > 0) {
+            supportFragmentManager.popBackStack()
+        } else {
+            supportFragmentManager.beginTransaction().replace(R.id.main_fragment_container, HomeFragment()).commit()
+        }
+        findViewById<TabLayout>(R.id.tabLayout).visibility = View.VISIBLE
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,9 +52,14 @@ class MainActivity : AppCompatActivity() {
                             1 -> savedInstanceState
                                     ?: supportFragmentManager.beginTransaction()
                                         .replace(R.id.main_fragment_container, FriendsFragment()).commit()
-                            3 -> savedInstanceState
+                            3 -> {
+                                val uID = getSharedPreferences("sportash", Context.MODE_PRIVATE)?.getInt("USER_ID", 0) as Int
+                                val fragment = UserFragment.newInstance(uID, true)
+                                savedInstanceState
                                     ?: supportFragmentManager.beginTransaction()
-                                            .replace(R.id.main_fragment_container, UserFragment()).commit()
+                                        .replace(R.id.main_fragment_container, fragment).commit()
+
+                            }
                         }
                     }
 
