@@ -15,6 +15,7 @@ class UserDetailsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
     init{
         uUsername = itemView.findViewById(R.id.user_details_username)
+        uImage = itemView.findViewById(R.id.user_details_image)
         uAddButton = itemView.findViewById(R.id.user_details_button)
     }
 
@@ -26,6 +27,8 @@ class UserDetailsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
             uAddButton?.visibility = View.VISIBLE
             uAddButton?.isEnabled = !user.befriended!!
         }
+
+        SportashAPI.setImage(user.image, uImage!!)
 
         uAddButton?.setOnClickListener {
             clickListener.onAddButtonClicked(user.id)

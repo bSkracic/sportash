@@ -18,17 +18,16 @@ class LoginActivity : AppCompatActivity() {
     data class Request(val Login_Email: String, val Login_Password: String)
 
     override fun onBackPressed() {
-        supportFragmentManager.run {
-            for (fragment in this.fragments) {
-                beginTransaction().remove(fragment).commit()
-            }
+        if(supportFragmentManager.backStackEntryCount > 0) {
+            supportFragmentManager.popBackStack()
         }
-        // Sounds good, doesn't work
-        findViewById<ConstraintLayout>(R.id.layout)?.run {
-                for (i in 0 until this.childCount){
-                    this.getChildAt(i).visibility = View.VISIBLE
-                }
-        }
+        // needs better
+        findViewById<Button>(R.id.btn_login_submit).visibility = View.VISIBLE
+        findViewById<TextView>(R.id.txt_logo).visibility = View.VISIBLE
+        findViewById<EditText>(R.id.edit_email).visibility = View.VISIBLE
+        findViewById<EditText>(R.id.edit_password).visibility = View.VISIBLE
+        findViewById<Switch>(R.id.switch_remember).visibility = View.VISIBLE
+        findViewById<TextView>(R.id.txt_new_acc).visibility = View.VISIBLE
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,7 +38,7 @@ class LoginActivity : AppCompatActivity() {
         this.title = ""
 
         // Check if user ID is store: if any skip this activity and open MainActivity
-        if(getSharedPreferences("sportash", Context.MODE_PRIVATE).getBoolean("USER_STORED", false)){
+        if(getSharedPreferences("sportash", Context.MODE_PRIVATE).getBoolean(SportashAPI.USER_STORED, false)){
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
@@ -52,7 +51,7 @@ class LoginActivity : AppCompatActivity() {
             findViewById<EditText>(R.id.edit_password).visibility = View.GONE
             findViewById<Switch>(R.id.switch_remember).visibility = View.GONE
             findViewById<TextView>(R.id.txt_new_acc).visibility = View.GONE
-            supportFragmentManager.beginTransaction().replace(R.id.new_acc_fragment_container, NewAccountFragment()).commit()
+            supportFragmentManager.beginTransaction().replace(R.id.new_acc_fragment_container, NewAccountFragment()).addToBackStack("NEW_USER").commit()
         }
 
         // Questionable passing reference to switch; should be accessed with "view" from method

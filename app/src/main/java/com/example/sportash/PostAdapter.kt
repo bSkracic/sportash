@@ -31,7 +31,10 @@ class Post {
         EndorsementCount = data.getInt("EndorsementCount")
         CommentCount = data.getInt("CommentCount")
     }
+    constructor(){}
 }
+
+// TODO: add image to each poster in posts
 
 class PostItem(var itemView: View) : RecyclerView.ViewHolder(itemView) {
     private var pContent : TextView? = null
@@ -41,6 +44,7 @@ class PostItem(var itemView: View) : RecyclerView.ViewHolder(itemView) {
     private var pComment: ImageView? = null
     private var pEndorsementCount: TextView? = null
     private var pCommentCount: TextView? = null
+    private var pUserImage: ImageView? = null
 
     init {
         pContent = itemView.findViewById(R.id.post_content)
@@ -50,9 +54,10 @@ class PostItem(var itemView: View) : RecyclerView.ViewHolder(itemView) {
         pDate = itemView.findViewById(R.id.post_date)
         pEndorsementCount = itemView.findViewById(R.id.post_endorsement_count)
         pCommentCount = itemView.findViewById(R.id.post_comments_count)
+        pUserImage = itemView.findViewById(R.id.post_user_image)
     }
 
-    fun bind(post: Post, clickListener: OnPostClicked){
+    fun bind(post: Post, userImage: String?, clickListener: OnPostClicked){
         pUsername?.text = post.Username
         pContent?.text = post.Content
         pCommentCount?.text = post.CommentCount.toString()
@@ -71,13 +76,15 @@ class PostItem(var itemView: View) : RecyclerView.ViewHolder(itemView) {
         if(post.Endorsed) pEndorse?.setImageResource(R.mipmap.like_full_foreground)
         else pEndorse?.setImageResource(R.mipmap.like_empty_foreground)
 
+        SportashAPI.setImage(userImage, pUserImage!!)
+
         itemView.setOnClickListener{
             clickListener.onCommentsClicked(post)
         }
     }
 }
 
-class PostAdapter(private val postList: MutableList<Post>, private val clickListener: OnPostClicked) : RecyclerView.Adapter<PostItem>(){
+class PostAdapter(private val postList: MutableList<Post>, private val clickListener: OnPostClicked, private val images: MutableMap<Int, String?>) : RecyclerView.Adapter<PostItem>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostItem {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.post_item, parent, false)
         return PostItem(view)
@@ -85,7 +92,8 @@ class PostAdapter(private val postList: MutableList<Post>, private val clickList
 
     override fun onBindViewHolder(holder: PostItem, position: Int) {
         val post = postList[position]
-        holder.bind(post, clickListener)
+        val userImage = images[post.UserID]
+        holder.bind(post, userImage, clickListener)
     }
 
     override fun getItemCount(): Int {

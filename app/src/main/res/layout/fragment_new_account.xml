@@ -12,7 +12,7 @@
         android:id="@+id/new_acc_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="CREATE AN ACCOUNT"
         android:textColor="@color/white"
@@ -23,18 +23,59 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/edit_new_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_acc_label"
+        app:srcCompat="@mipmap/default_avatar_round" />
+
+    <Button
+        android:id="@+id/edit_new_image_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="Gallery"
+        android:textColor="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/edit_new_image"
+        app:layout_constraintTop_toBottomOf="@+id/new_acc_label" />
+
+    <Button
+        android:id="@+id/edit_new_image_take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:backgroundTint="@color/white"
+        android:text="Camera"
+        android:textColor="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/edit_new_image"
+        app:layout_constraintTop_toBottomOf="@+id/edit_new_image_pick" />
+
     <EditText
         android:id="@+id/edit_new_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="text"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/new_acc_label" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_new_image" />
 
     <EditText
         android:id="@+id/edit_new_dob"
@@ -79,11 +120,11 @@
         android:id="@+id/edit_new_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Email"
-        android:textColor="@color/white"
         android:inputType="textEmailAddress"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_new_lastname" />
@@ -95,8 +136,8 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Password"
-        android:textColor="@color/white"
         android:inputType="textPassword"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_new_email" />
@@ -105,15 +146,24 @@
         android:id="@+id/btn_acc_submit"
         android:layout_width="200dp"
         android:layout_height="70dp"
-        android:text="SIGN UP"
-        android:textSize="20dp"
-        android:textColor="@color/yellow"
         android:backgroundTint="@color/white"
+        android:text="SIGN UP"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_new_password"
-        app:layout_constraintVertical_bias="0.43" />
+        app:layout_constraintVertical_bias="0.875" />
+
+    <View
+        android:id="@+id/divider15"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/new_acc_label"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

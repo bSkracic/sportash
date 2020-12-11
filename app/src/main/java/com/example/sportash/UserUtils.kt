@@ -1,14 +1,6 @@
 package com.example.sportash
 
-import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentManager
-import java.io.OutputStreamWriter
-import java.net.HttpURLConnection
-import java.net.URL
-import com.google.gson.Gson
 import org.json.JSONObject
-import java.io.BufferedReader
-import java.io.InputStreamReader
 
 // Data model used for representing user details in application
 class BaseUserDetails(jsonObject: JSONObject) {
@@ -20,17 +12,19 @@ class BaseUserDetails(jsonObject: JSONObject) {
     init {
         id = jsonObject.getInt("ID")
         username = jsonObject.getString("Username")
-        image = null
+        image = jsonObject.getString("Image")
     }
 }
 
 // Data model used for communication with the api
 data class FullUserDetails (
     val ID: Int,
+    val Image: String?,
     val Username: String,
     val Login_Email: String,
     val Login_Password: String,
     val FirstName: String,
     val LastName: String,
-    val DOB: String )
+    val DOB: String?
+    )
 

@@ -3,6 +3,7 @@ package com.example.sportash
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import org.json.JSONObject
@@ -11,21 +12,25 @@ class ConversationDetail(data: JSONObject) {
     var SenderID: Int = 0
     var Username: String = ""
     var Count: Int = 0
+    var Image: String? = null
 
     init {
         SenderID = data.getInt("SenderID")
         Username = data.getString("Username")
         Count = data.getInt("Count")
+        Image = data.getString("Image")
     }
 }
 
 class UniversalMessageItem(itemView: View) : RecyclerView.ViewHolder(itemView){
     private var mUsername: TextView? = null
     private var mCount: TextView? = null
+    private var mImage: ImageView? = null
 
     init{
         mUsername = itemView.findViewById(R.id.message_username)
         mCount = itemView.findViewById(R.id.message_count)
+        mImage = itemView.findViewById(R.id.message_icon)
     }
 
     fun bind(conversation: ConversationDetail, clickListener: OnConversationClicked){
@@ -37,7 +42,7 @@ class UniversalMessageItem(itemView: View) : RecyclerView.ViewHolder(itemView){
         }else {
             mCount?.text = conversation.Count.toString()
         }
-
+        SportashAPI.setImage(conversation.Image, mImage!!)
 
         itemView.setOnClickListener {
             clickListener.onItemClicked(conversation)

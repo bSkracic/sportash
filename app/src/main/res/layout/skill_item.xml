@@ -46,7 +46,7 @@
             android:id="@+id/skill_remove"
             android:layout_width="38dp"
             android:layout_height="44dp"
-            android:backgroundTint="#cc0000"
+            android:backgroundTint="@color/red"
             android:text="X"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/skill_endorsment_count"

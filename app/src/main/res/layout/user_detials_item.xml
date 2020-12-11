@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_dialog_alert" />
+        app:srcCompat="@mipmap/default_avatar_round" />
 
     <TextView
         android:id="@+id/user_details_username"

@@ -50,7 +50,7 @@ class CommentFragment : Fragment(R.layout.fragment_comment) {
         populateComments()
 
         view.findViewById<Button>(R.id.post_report).setOnClickListener{
-            // TODO: Send report request
+            // TODO: send report request
         }
 
         view.findViewById<Button>(R.id.comments_send).setOnClickListener{

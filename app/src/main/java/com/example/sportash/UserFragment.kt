@@ -1,13 +1,14 @@
 package com.example.sportash
 
+import android.app.Activity
 import android.content.Context
+import android.content.Intent
+import android.graphics.Bitmap
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
+import androidx.core.content.edit
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.CoroutineScope
@@ -21,6 +22,7 @@ import java.lang.Exception
 
 private const val USER_ID = "USER_ID"
 private const val USER_AUTH = "USER_AUTH"
+
 class UserFragment : Fragment(R.layout.fragment_user) {
 
     companion object {
@@ -56,29 +58,37 @@ class UserFragment : Fragment(R.layout.fragment_user) {
         if(!isOwner){
             view.findViewById<Button>(R.id.btn_edit_profile).visibility = View.GONE
             view.findViewById<Button>(R.id.btn_change_pswrd).visibility = View.GONE
+            view.findViewById<Button>(R.id.btn_logout).visibility = View.GONE
             view.findViewById<EditText>(R.id.edit_new_skill).visibility = View.GONE
             view.findViewById<Button>(R.id.btn_add_skill).visibility = View.GONE
             view.findViewById<TextView>(R.id.txt_label_new_skill).visibility = View.GONE
-        } else {
+        }
+        else {
             view.findViewById<Button>(R.id.btn_edit_profile).setOnClickListener {
                 activity?.supportFragmentManager?.apply {
                     beginTransaction().replace(R.id.main_fragment_container, EditUserFragment()).addToBackStack("EDIT_USER").commit()
                 }
             }
-        }
-
-        // Populate containers
-        // TODO: Request for image
-        populateDetails()
-        populateSkills()
-
-        view.findViewById<Button>(R.id.btn_add_skill).setOnClickListener{
-            val skillText = view.findViewById<EditText>(R.id.edit_new_skill).text
-            CoroutineScope(Dispatchers.IO).launch {
-                SportashAPI.HTTPRequest(SportashAPI.POST, "${SportashAPI.apiURL}/User_Skill?userID=$userID&text=$skillText", null)
-                populateSkills()
+            view.findViewById<Button>(R.id.btn_change_pswrd).setOnClickListener {
+                // TODO: request password change
+            }
+            view.findViewById<Button>(R.id.btn_logout).setOnClickListener {
+                activity?.getSharedPreferences(SportashAPI.PREF_KEY, Context.MODE_PRIVATE)?.edit()?.putInt(SportashAPI.USER_ID, 0)?.apply()
+                activity?.getSharedPreferences(SportashAPI.PREF_KEY, Context.MODE_PRIVATE)?.edit()?.putBoolean(SportashAPI.USER_STORED, false)?.apply()
+                val intent = Intent(activity, LoginActivity::class.java)
+                startActivity(intent)
+            }
+            view.findViewById<Button>(R.id.btn_add_skill).setOnClickListener{
+                val skillText = view.findViewById<EditText>(R.id.edit_new_skill).text
+                CoroutineScope(Dispatchers.IO).launch {
+                    SportashAPI.HTTPRequest(SportashAPI.POST, "${SportashAPI.apiURL}/User_Skill?userID=$userID&text=$skillText", null)
+                    populateSkills()
+                }
             }
         }
+        // Populate containers
+        populateDetails()
+        populateSkills()
     }
 
     private fun populateDetails() {
@@ -87,6 +97,7 @@ class UserFragment : Fragment(R.layout.fragment_user) {
                 val result = JSONObject(this)
                 fullUserDetails = FullUserDetails(
                     result.getInt("ID"),
+                    result.getString("Image"),
                     result.getString("Username"),
                     result.getString("Login_Email"),
                     result.getString("Login_Password"),
@@ -99,6 +110,7 @@ class UserFragment : Fragment(R.layout.fragment_user) {
                         view?.findViewById<TextView>(R.id.txt_username)?.text = Username
                         view?.findViewById<TextView>(R.id.txt_name_surname)?.text = "$FirstName $LastName"
                         view?.findViewById<TextView>(R.id.txt_email)?.text = Login_Email
+                        SportashAPI.setImage(fullUserDetails?.Image, view?.findViewById(R.id.user_image)!!)
                     }
                 }
             }
@@ -133,15 +145,14 @@ class UserFragment : Fragment(R.layout.fragment_user) {
                                     try{
                                         SportashAPI.HTTPRequest(SportashAPI.DELETE, "${SportashAPI.apiURL}/SkillEndorsments?userID=$viewerID&userSkillID=${skill.ID}",null)
                                     } catch (ex: Exception){
-                                        // When it is already liked/unliked
+                                        // When it is already liked/unliked, but unsynced
                                     }
                                 }
                                 else {
                                     try {
                                         SportashAPI.HTTPRequest(SportashAPI.POST,"${SportashAPI.apiURL}/SkillEndorsments?userID=$viewerID&userSkillID=${skill.ID}", null)
-
                                     } catch (ex: Exception){
-                                        // When it is already liked/unliked
+                                        // When it is already liked/unliked, but unsynced
                                     }
                                 }
                                 populateSkills()

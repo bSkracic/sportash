@@ -1,15 +1,247 @@
 [
     {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_default_avatar.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_sportash_icon.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\sportash_icon.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_default_avatar_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\default_avatar_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_default_avatar.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_default_avatar_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\default_avatar_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_sportash_icon_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\sportash_icon_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friends.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_friends.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_full_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_full_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_comment_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\comment_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_default_avatar_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\default_avatar_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sportash_icon_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\sportash_icon_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_like_full_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\like_full_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_default_avatar_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\default_avatar_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_default_avatar.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_default_avatar_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\default_avatar_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_comment_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\comment_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_like_empty_round.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\like_empty_round.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_default_avatar.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\default_avatar.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_sportash_icon_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\sportash_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_empty_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\like_empty_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_full_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\like_full_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_full_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_full_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_sportash_icon_round.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\sportash_icon_round.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_like_empty_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\like_empty_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_default_avatar.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_default_avatar_round.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\default_avatar_round.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_empty.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_empty.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_like_full.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\like_full.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_sportash_icon_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\sportash_icon_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_comments_round.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\comments_round.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_post_item.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\post_item.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_tag_item.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\tag_item.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_empty.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_empty.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_comment_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\comment_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_empty_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_empty_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_skill_item.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\skill_item.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_sportash_icon_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\sportash_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_messages.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_messages.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_detials_item.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\user_detials_item.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_like_empty.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\like_empty.xml"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sportash_icon.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\sportash_icon.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_comments_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\comments_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_empty.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\like_empty.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_full_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\like_full_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_sportash_icon.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\sportash_icon.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_default_avatar.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_empty_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_empty_round.png"
+    },
+    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_empty_round.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\like_empty_round.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_universal_message_container.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\universal_message_container.xml"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_sportash_icon_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\sportash_icon_round.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_full_foreground.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_full_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_universal_message_container.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\universal_message_container.xml"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_full_foreground.png.flat",
@@ -28,28 +260,8 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\like_full_foreground.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friends.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_friends.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_full_foreground.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_full_foreground.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_comments.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\comments.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_comment_foreground.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\comment_foreground.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_edit_user.xml.flat",
@@ -60,24 +272,16 @@
         "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_conversations.xml.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_conversations.xml"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comment.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_comment.xml"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_default_avatar_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\default_avatar_round.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_like_full_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\like_full_round.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comment.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_comment.xml"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_full.png.flat",
@@ -88,24 +292,12 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\comments.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_like_full_round.xml.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\like_full_round.xml"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_full.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_full.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_comment_foreground.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\comment_foreground.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_like_empty_round.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\like_empty_round.xml"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -116,28 +308,20 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_empty_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\like_empty_round.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_like_empty_foreground.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\like_empty_foreground.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_sportash_icon.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\sportash_icon.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_full_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_full_round.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_default_avatar_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\default_avatar_foreground.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_full_foreground.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\like_full_foreground.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sportash_icon_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\sportash_icon_foreground.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -148,20 +332,24 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\comments_round.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_comments.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\comments.xml"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_comments_round.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\comments_round.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_like_empty_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\like_empty_round.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_comments.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\comments.xml"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_full.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_full.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_default_avatar_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\default_avatar_round.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_default_avatar_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\default_avatar_foreground.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_empty_foreground.png.flat",
@@ -176,14 +364,6 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_like_full.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\like_full.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_empty.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_empty.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_comments.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\comments.png"
     },
@@ -196,32 +376,12 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\like_empty.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_comments_round.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\comments_round.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_post_item.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\post_item.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_empty.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_empty.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sportash_icon_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\sportash_icon_round.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_empty_foreground.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\like_empty_foreground.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_comment_foreground.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\comment_foreground.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_empty_foreground.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_empty_foreground.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_skill_item.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\skill_item.xml"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_like_full_round.png.flat",
@@ -232,10 +392,6 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\like_full.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_messages.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_messages.xml"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
@@ -244,32 +400,16 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\like_empty_round.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user.xml.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_user.xml"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_detials_item.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\user_detials_item.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_like_empty.xml.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\like_empty.xml"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sportash_icon.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\sportash_icon.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_comments_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\comments_round.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_empty.png.flat",
@@ -280,12 +420,12 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\comment_foreground.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_full_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\like_full_round.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_new_post.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\fragment_new_post.xml"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_empty.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\like_empty.png"
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_like_full_round.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\like_full_round.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -300,16 +440,20 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_sportash_icon_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\sportash_icon_foreground.png"
+    },
+    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_comments_round.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\comments_round.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_empty_foreground.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_empty_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_sportash_icon.xml.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-anydpi-v26\\sportash_icon.xml"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_comments.png.flat",
@@ -320,16 +464,8 @@
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-mdpi\\comments_round.png"
     },
     {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_like_full_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\like_full_round.png"
-    },
-    {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\layout_detailed_message_container.xml.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\layout\\detailed_message_container.xml"
-    },
-    {
-        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_like_empty_round.png.flat",
-        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_empty_round.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_comment_foreground.png.flat",
@@ -338,6 +474,14 @@
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_comments.png.flat",
         "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-hdpi\\comments.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sportash_icon_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\sportash_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_default_avatar_foreground.png.flat",
+        "source": "D:\\new-repos\\sportash\\app\\src\\main\\res\\mipmap-xhdpi\\default_avatar_foreground.png"
     },
     {
         "merged": "D:\\new-repos\\sportash\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_like_full.png.flat",

@@ -10,7 +10,6 @@ import com.google.android.material.tabs.TabLayout
 class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
-        // TODO> DEBUG check if fragment stack has two or more items(indicating that tabbed open another sub tab) ? pop it : open Home Fragment and empty stack
         val stackSize = supportFragmentManager.backStackEntryCount
         if(stackSize > 0) {
             supportFragmentManager.popBackStack()

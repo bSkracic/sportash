@@ -79,8 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\bskra\OneDrive\Radna površina\res\comment.png" />
-                                                <entry key="scalingPercent" value="42" />
+                                                <entry key="imagePath" value="C:\Users\bskra\OneDrive\Radna površina\res\default_avatar.png" />
+                                                <entry key="scalingPercent" value="58" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -113,9 +113,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="feffef" />
-                                      <entry key="foregroundLayerName" value="comment_foreground" />
-                                      <entry key="outputName" value="comments" />
+                                      <entry key="backgroundColor" value="d3971c" />
+                                      <entry key="outputName" value="sportash_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>
