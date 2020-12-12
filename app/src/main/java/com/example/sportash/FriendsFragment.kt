@@ -213,6 +213,6 @@ class FriendsFragment : Fragment(R.layout.fragment_friends) {
 
     private fun openUserDetails(id: Int){
         val fragment = UserFragment.newInstance(id, false)
-        fragmentManager?.beginTransaction()?.replace(R.id.main_fragment_container, fragment)?.commit()
+        fragmentManager?.beginTransaction()?.replace(R.id.main_fragment_container, fragment)?.addToBackStack("FRIEND_DETAILS")?.commit()
     }
 }
