@@ -41,24 +41,25 @@ class MessagesFragment : Fragment(R.layout.fragment_messages) {
 
                 override fun onQueryTextChange(newText: String?): Boolean {
                     var userList = mutableListOf<BaseUserDetails>()
-                    newText?:
-                    CoroutineScope(Dispatchers.IO).launch {
-                        SportashAPI.HTTPRequest(SportashAPI.GET, "${SportashAPI.apiURL}/users/search?query=$newText", null).run {
-                            val results = JSONArray(this)
-                            for(i in 0 until results.length()) {
-                                userList.add(BaseUserDetails(results.getJSONObject(i)))
-                            }
-                            withContext(Dispatchers.Main){
-                                view?.findViewById<RecyclerView>(R.id.conversations_container).apply {
-                                    this.layoutManager = LinearLayoutManager(context)
-                                    this.adapter = UserDetailsAdapter(userList, object: OnUserClicked {
-                                        override fun onAddButtonClicked(id: Int) {}
+                    if(newText != null && newText?.length > 2) {
+                        CoroutineScope(Dispatchers.IO).launch {
+                            SportashAPI.HTTPRequest(SportashAPI.GET, "${SportashAPI.apiURL}/users/search?query=$newText", null).run {
+                                val results = JSONArray(this)
+                                for(i in 0 until results.length()) {
+                                    userList.add(BaseUserDetails(results.getJSONObject(i)))
+                                }
+                                withContext(Dispatchers.Main){
+                                    view?.findViewById<RecyclerView>(R.id.conversations_container).apply {
+                                        this.layoutManager = LinearLayoutManager(context)
+                                        this.adapter = UserDetailsAdapter(userList, object: OnUserClicked {
+                                            override fun onAddButtonClicked(id: Int) {}
 
-                                        override fun onItemClicked(id: Int) {
-                                            openConversationDetail(id)
-                                        }
+                                            override fun onItemClicked(id: Int) {
+                                                openConversationDetail(id)
+                                            }
 
-                                    })
+                                        })
+                                    }
                                 }
                             }
                         }
